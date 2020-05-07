@@ -1,8 +1,61 @@
 .App {
-  text-align: center;
+  margin: 20px auto;
+  border: 2px solid #000;
+  background-color: #efefef;
+  padding: 10px;
+  width: 1000px;
 }
 
-.App-logo {
+.header {
+  border: 2px solid #000;
+  background-color: aqua;
+  min-height: 120px;
+  margin: 10px;
+}
+
+.navigation {
+  border: 2px solid #000;
+  padding: 5px;
+  background-color: rgb(74, 71, 250);
+  min-height: 480px;
+  margin: 10px;
+  width: 250px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.main {
+  border: 2px solid #000;
+  padding: 10px;
+  background-color: rgb(255, 136, 136);
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+  width: 670px;
+
+}
+
+.subcontent {
+  border: 2px solid #000;
+  padding: 10px;
+  background-color: rgb(252, 165, 84);
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+  width: 178px;
+  min-height: 300px;
+}
+
+.advertisement {
+  border: 2px solid #000;
+  padding: 10px;
+  background-color: rgb(218, 84, 252);
+  margin: 10px;
+  vertical-align: top;
+  min-height: 80px;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +88,6 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
+
+
